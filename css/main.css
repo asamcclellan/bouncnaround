@@ -98,6 +98,38 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* Base Header and Footer Styles - Mobile */
+.content-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: column-wrap;
+}
+
+header{
+  background-color: lightgreen;
+}
+
+header li{
+  list-style: none;
+}
+
+header li a{
+  text-decoration: none;
+}
+
+.main-to-rental{
+  background-color: pink;
+}
+
+.main-to-contact{
+  background-color: lightyellow;
+}
+
+footer{
+  background-color: lightblue;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
