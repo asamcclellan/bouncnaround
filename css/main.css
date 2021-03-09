@@ -99,6 +99,13 @@ textarea {
    ========================================================================== */
 
 /* Base Header and Footer Styles - Mobile */
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
 .content-wrapper{
   display: flex;
   justify-content: center;
@@ -121,6 +128,7 @@ textarea {
 header{
   background-color: lightgreen;
   height:15%;
+  width: 100%;
 }
 
 header a{
@@ -131,10 +139,12 @@ header a{
 footer{
   background-color: lightblue;
   height:15%;
+  width: 100%;
 }
 
 .footer-wrapper{
   padding-top:1em;
+  padding-bottom:2em;
 }
 
 /* Main Page Mobile Styles */
@@ -146,6 +156,7 @@ footer{
   align-items: center;
   flex-flow: column nowrap;
   height:35%;
+  width: 100%;
 }
 
 .main-to-rental h2{
@@ -159,14 +170,11 @@ footer{
   align-items: center;
   flex-flow: column nowrap;
   height:35%;
+  width:100%;
 }
 
 .main-to-contact h2{
   width:60%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column wrap;
 }
 
 /* Rental Page Mobile Styles */
@@ -177,26 +185,42 @@ footer{
   flex-flow: column nowrap;
   background-color: pink;
   height:70%;
+  width: 100%;
+}
+
+.offerings h2{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
 }
 
 .offerings-menu{
-  display:flex;
+  display: flex;
   justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
 }
 
-.offerings img{
-  margin:1em;
-  width:28%;
+
+.offerings a img{
+  margin: 1em;
 }
 
-.offerings-menu a img{
-  margin:1em;
-  width:60%;
+.rental{
+  padding: 1em;
+  background-color: pink;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-#sample-rental{
-  border:1px solid black;
+.rental h2{
+  width:100%;
+  text-align: center;
 }
 
 /*Contact Page Mobile Styles */
@@ -207,6 +231,8 @@ footer{
   flex-flow: column nowrap;
   background-color: pink;
   height:70%;
+  padding-left: 1em;
+  padding-right: 1em
 }
 
 .contact h2{
