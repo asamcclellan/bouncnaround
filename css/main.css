@@ -104,6 +104,7 @@ textarea {
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
+  text-align: center;
 }
 
 .header-menu{
@@ -119,7 +120,7 @@ textarea {
 
 header{
   background-color: lightgreen;
-  height:15vh;
+  height:15%;
 }
 
 header a{
@@ -129,14 +130,10 @@ header a{
 
 footer{
   background-color: lightblue;
-  height:15vh;
+  height:15%;
 }
 
 .footer-wrapper{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column nowrap;
   padding-top:1em;
 }
 
@@ -148,7 +145,7 @@ footer{
   justify-content: center;
   align-items: center;
   flex-flow: column nowrap;
-  height:35vh;
+  height:35%;
 }
 
 .main-to-rental h2{
@@ -161,11 +158,15 @@ footer{
   justify-content: center;
   align-items: center;
   flex-flow: column nowrap;
-  height:35vh;
+  height:35%;
 }
 
 .main-to-contact h2{
   width:60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
 }
 
 /* Rental Page Mobile Styles */
@@ -175,7 +176,7 @@ footer{
   align-items: center;
   flex-flow: column nowrap;
   background-color: pink;
-  height:70vh;
+  height:70%;
 }
 
 .offerings-menu{
@@ -205,7 +206,7 @@ footer{
   align-items: center;
   flex-flow: column nowrap;
   background-color: pink;
-  height:70vh;
+  height:70%;
 }
 
 .contact h2{
