@@ -112,6 +112,7 @@ main{
   align-items: center;
   flex-flow: column wrap;
   text-align: center;
+  width:100%;
 }
 
 .header-menu{
@@ -129,6 +130,10 @@ header{
   background-color: lightgreen;
   height:15%;
   width: 100%;
+}
+
+header h1{
+  padding: 0em 1em 0em 1em;
 }
 
 header a{
@@ -169,7 +174,7 @@ footer{
   justify-content: center;
   align-items: center;
   flex-flow: column nowrap;
-  height:35%;
+  height:70%%;
   width:100%;
 }
 
@@ -208,6 +213,7 @@ footer{
   margin: 1em;
 }
 
+/* Rental Page Mobile Styles */
 .rental{
   padding: 1em;
   background-color: pink;
@@ -230,18 +236,13 @@ footer{
   align-items: center;
   flex-flow: column nowrap;
   background-color: pink;
-  height:70%;
-  padding-left: 1em;
-  padding-right: 1em
-}
-
-.contact h2{
-  clear:below;
-  width:60%;
-}
-
-.contact h3{
+  padding: 2em 5em 2em 5em;
+  width: 100%;
   text-align: center;
+}
+
+.contact h2, h3{
+  width:75%;
 }
 
 /* ==========================================================================
