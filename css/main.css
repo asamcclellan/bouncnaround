@@ -119,10 +119,13 @@ header{
   align-items: center;
   flex-flow: column nowrap;
   padding: 0 1em;
+  color: #eee;
+  background-color: grey;
+  text-align: center;
 }
 
 header h1{
-
+  margin: 1em 2em 0 2em;
 }
 
 header a{
@@ -133,13 +136,14 @@ header a{
 
 .nav{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width:50%;
+  text-align: center;
 }
 
 .nav a{
-  margin-bottom:1em;
+  margin:2em 1em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -155,6 +159,8 @@ footer{
   align-items: center;
   flex-flow: column nowrap;
   padding: 2em 0;
+  color: #eee;
+  background-color: grey;
 }
 
 footer a{
@@ -212,19 +218,17 @@ footer a{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: column nowrap;
+  flex-flow: row wrap;
   background-color: pink;
   width: 100%;
-  font-family: 'Varela Round', sans-serif;
   padding: 2em 0;
+  font-family: 'Varela Round', sans-serif;
+
 }
 
 .offerings h2{
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column wrap;
+  text-align: center;
 }
 
 .offerings-menu{
@@ -234,9 +238,13 @@ footer a{
   flex-flow: row wrap;
 }
 
-
-.offerings a img{
-  margin: 1em;
+.rental{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  margin: .5em 1.5em;
+  font-size: 1.5em;
 }
 
 /*Contact Page Mobile Styles */
@@ -256,6 +264,13 @@ footer a{
   width:75%;
 }
 
+.contact h2{
+  font-size: 2em;
+}
+
+.contact h3 a{
+  text-decoration-line: none;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
