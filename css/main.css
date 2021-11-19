@@ -100,30 +100,19 @@ textarea {
    ========================================================================== */
 
 /* Base Header and Footer Styles - Mobile */
-main{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column nowrap;
-  height: 100%;
-  font-size: 1rem;
-}
-
 header{
   background-color: black;
-  width: 100%;
   font-family: 'Indie Flower', cursive;
-  font-size: 2em;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: column nowrap;
+  flex-flow: column wrap;
   color: white;
   text-align: center;
 }
 
 header h1{
-  margin: 1em 2em 0 2em;
+  font-size: 2.5em;
 }
 
 header a{
@@ -135,14 +124,15 @@ header a{
 
 .nav{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width:50%;
   text-align: center;
+  max-width: 25em;
 }
 
 .nav a{
-  margin:2em 1em;
+  margin-bottom: 2em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -157,7 +147,7 @@ footer{
   justify-content: center;
   align-items: center;
   flex-flow: column nowrap;
-  padding: 2em 0;
+  padding-bottom: 1em;
   color: #eee;
 }
 
@@ -249,6 +239,10 @@ footer a{
   margin-bottom: 1.5em;
 }
 
+.rental img{
+  width: 75%;
+}
+
 .rental h3{
   margin: none;
   padding: none;
@@ -264,9 +258,9 @@ footer a{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: column nowrap;
+  flex-flow: column wrap;
   background-color: white;
-  padding: 2em 5em;
+  padding: 2em 0;
   width: 100%;
   text-align: center;
   font-family: 'Varela Round', sans-serif;
