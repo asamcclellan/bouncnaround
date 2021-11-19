@@ -110,7 +110,7 @@ main{
 }
 
 header{
-  background-color: lightgreen;
+  background-color: black;
   width: 100%;
   font-family: 'Indie Flower', cursive;
   font-size: 2em;
@@ -118,9 +118,7 @@ header{
   justify-content: center;
   align-items: center;
   flex-flow: column nowrap;
-  padding: 0 1em;
-  color: #eee;
-  background-color: grey;
+  color: white;
   text-align: center;
 }
 
@@ -132,6 +130,7 @@ header a{
   text-decoration: none;
   padding: .5em 1em;
   border: .125em solid #eee;
+  color: white;
 }
 
 .nav{
@@ -150,7 +149,7 @@ header a{
 }
 
 footer{
-  background-color: lightblue;
+  background-color: black;
   width: 100%;
   font-family: 'Varela Round', sans-serif;
   font-size: 1.5em;
@@ -160,17 +159,17 @@ footer{
   flex-flow: column nowrap;
   padding: 2em 0;
   color: #eee;
-  background-color: grey;
 }
 
 footer a{
-  text-decoration-line: none;
+  text-decoration-line: underline;
+  color: white;
 }
 
 /* Main Page Mobile Styles */
 
 .main-to-rental{
-  background-color: pink;
+  background-color: lightgrey;
   width: 100%;
   font-family: 'Varela Round', sans-serif;
   display: flex;
@@ -187,12 +186,12 @@ footer a{
 
 .main-to-rental a{
   text-decoration-line: none;
-  border: .125em solid #eee;
+  border: .125em solid black;
   padding: .5em 1em;
 }
 
 .main-to-contact{
-  background-color: lightyellow;
+  background-color: white;
   width:100%;
   font-family: 'Varela Round', sans-serif;
   display: flex;
@@ -209,7 +208,7 @@ footer a{
 
 .main-to-contact a{
   text-decoration-line: none;
-  border: .125em solid #eee;
+  border: .125em solid black;
   padding: .5em 1em;
 }
 
@@ -218,9 +217,8 @@ footer a{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
-  background-color: pink;
-  width: 100%;
+  flex-flow: column wrap;
+  background-color: white;
   padding: 2em 0;
   font-family: 'Varela Round', sans-serif;
 
@@ -229,31 +227,45 @@ footer a{
 .offerings h2{
   width: 100%;
   text-align: center;
+  font-size: 2em;
 }
 
 .offerings-menu{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
 }
+
+/* Rental Page Mobile Styles */
 
 .rental{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
-  margin: .5em 1.5em;
   font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 1.5em;
 }
 
-/*Contact Page Mobile Styles */
+.rental h3{
+  margin: none;
+  padding: none;
+}
+
+.rental p{
+  margin: none;
+  padding: none;
+}
+
+/* Contact Page Mobile Styles */
 .contact{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column nowrap;
-  background-color: pink;
+  background-color: white;
   padding: 2em 5em;
   width: 100%;
   text-align: center;
@@ -269,7 +281,7 @@ footer a{
 }
 
 .contact h3 a{
-  text-decoration-line: none;
+  text-decoration-line: underline;
 }
 /* ==========================================================================
    Helper classes
